@@ -10,18 +10,18 @@
 $(document).ready(function() {
 	//ex: "?page=100&tab=following"
 	var urlPara = location.search;
-  var currentPage = parseInt(urlPara.match(/-?\d+\.?\d*/)[0]);
-  
-  $('.unfollow').remove();
+  	var currentPage = parseInt(urlPara.match(/-?\d+\.?\d*/)[0]);
+  	//remove all unfollow form
+	$('.unfollow').remove();
   
   	$('.follow button').each(function(index, value) {
-  	    let _this = $(this);
-    	setTimeout(function() {
-      		_this.trigger('click');
-        }, index*40);
-    });
-    setTimeout(function() {
-      window.location = window.location.pathname + location.search.replace(currentPage, currentPage+1)
-    }, 3500);
+  	    	let _this = $(this);
+		setTimeout(function() {
+			_this.trigger('click');
+		}, index*40);
+    	});
+	setTimeout(function() {
+		window.location = window.location.pathname + location.search.replace(currentPage, currentPage+1)
+	}, 3500);
 });
 
