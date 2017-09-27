@@ -9,7 +9,7 @@
 4. star following people =D
 
 
-```
+```javascript
 $(document).ready(function() {
 	//ex: "?page=100&tab=following"
 	var urlPara = location.search;
