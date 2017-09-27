@@ -1,14 +1,10 @@
 # GitHubFollowingHack
 
 
-// DALIN H
-// add chrome extension `cjs`
-// add the following code
-// find a github rockstar user (40k+ follower), goto his/her following page (refresh..)
-// star following people =D
-
-// SOVLED note that at page 100 you will be stuck since NEXT button is disabled (and the url is gone)
-// SOLUTION directly update URL to goto next page
+1. add chrome extension `cjs`
+2. add the following code
+3. find a github rockstar user (40k+ follower), goto his/her following page (refresh..)
+4. star following people =D
 
 
 ```
@@ -30,6 +26,11 @@ $(document).ready(function() {
 	}, 3500);
 });
 ```
+
+
+BUG: note that at page 100 you will be stuck since NEXT button is disabled (and the url is gone)
+SOLUTION(fixed): directly update URL to goto next page
+
 
 Current speed: 12 following / sec (43,000 / hour), it is easy to get 300k following but to scale up to 10 million following this is slow. 
 
