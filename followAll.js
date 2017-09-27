@@ -3,10 +3,17 @@
 // add the following code
 // find a github rockstar user (40k+ follower), goto his/her following page (refresh..)
 // star following people =D
-// note that at page 99/100 you will be stuck since NEXT button is disabled (we need to undisable it)
+
+// SOVLED note that at page 100 you will be stuck since NEXT button is disabled (and the url is gone)
+// SOLUTION directly update URL to goto next page
 
 $(document).ready(function() {
+	//ex: "?page=100&tab=following"
+	var urlPara = location.search;
+  var currentPage = parseInt(urlPara.match(/-?\d+\.?\d*/)[0]);
+  
   $('.unfollow').remove();
+  
   	$('.follow button').each(function(index, value) {
   	    let _this = $(this);
     	setTimeout(function() {
@@ -14,6 +21,7 @@ $(document).ready(function() {
         }, index*40);
     });
     setTimeout(function() {
-      $('.pagination a:last')[0].click();
+      window.location = window.location.pathname + location.search.replace(currentPage, currentPage+1)
     }, 3500);
 });
+
