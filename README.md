@@ -33,12 +33,13 @@ $(document).ready(function() {
     if (bt_disabled) {
       $('.pagination a').click();
     } else if (pre_next_btn === 0) {
-      alert('DONE!');
+      console.log('done......');
     } else {
       window.location = window.location.pathname + location.search.replace(currentPage, currentPage + 1);
     }
   }, 3500);
 });
+
 
 ```
 
