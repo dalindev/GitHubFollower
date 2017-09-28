@@ -5,8 +5,7 @@
 
 1. add chrome extension `cjs` (add jQuery)
 2. add the following code
-3. find a github rockstar user (40k+ follower)
-4. goto followers or following page -> refresh page ... 
+3. goto followers or following page -> refresh page ... 
 
 
 ```javascript
