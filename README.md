@@ -1,4 +1,4 @@
-# GitHubFollowingHack (THIS PROJECT IS NO LONGER MAINTAINED)
+# GitHubFollowingHack
 
 
 ## Getting Started
