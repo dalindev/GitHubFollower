@@ -48,4 +48,4 @@ Current speed: 12 following / sec (43,000 / hour), it is easy to get 300k follow
 
 
 ### NEXT To-Do:
-scale up? 10 million following target (crawler? hashmap? Search tree?)
+scale up? 10 million following target (crawler? hashmap? Search tree? Github API?)
