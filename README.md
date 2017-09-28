@@ -43,11 +43,6 @@ $(document).ready(function() {
 
 ```
 
-## NOTE:
-BUG: note that at page 100 you will be stuck since NEXT button is disabled (and the url is gone)
-SOLUTION(fixed): directly update URL to goto next page
-
-
 ## What's next?
 Current speed: 12 following / sec (43,000 / hour), it is easy to get 300k following but to scale up to 10 million following this is slow. 
 
