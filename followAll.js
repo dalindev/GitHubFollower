@@ -28,7 +28,7 @@ $(document).ready(function() {
   });
   setTimeout(function() {
     if (bt_disabled) {
-      $('.pagination a').click();
+      $('.pagination a')[0].click();
     } else if (pre_next_btn === 0) {
       console.log('done......');
     } else {
@@ -36,6 +36,7 @@ $(document).ready(function() {
     }
   }, 3500);
 });
+
 
 
 
