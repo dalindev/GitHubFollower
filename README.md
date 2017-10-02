@@ -51,3 +51,5 @@ $(document).ready(function() {
 
 
 ### THIS PROJECT IS NO LONGER MAINTAINED (deprecated)
+
+### OK you found the code but if you do this, 100% you will be flagged by Github anti spam BOT, and you might losing your account! make sure you know what you are doing...
