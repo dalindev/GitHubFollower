@@ -1,4 +1,4 @@
 # GitHubFollowingHack
 
 
-CODE REMOVED (Why? Because this will get you flagged by GitHub as abusing the system, so please consider the risk)
+Code removed... (Why? Because using this you will be flagged by GitHub as abusing the system and you might losing your account, so please consider the risk)
