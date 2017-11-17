@@ -56,6 +56,4 @@ $(document).ready(function() {
 ~~scale up? 10 million following target (crawler? hashmap? Search tree? Github API?)~~
 
 
-### THIS PROJECT IS NO LONGER MAINTAINED (deprecated)
-
-### OK you found the code but if you do this, you will be flagged by Github anti spam BOT, and you might losing your account! make sure you know what you are doing...
+### make sure you know what you are doing... LoL
