@@ -56,4 +56,4 @@ $(document).ready(function() {
 ~~scale up? 10 million following target (crawler? hashmap? Search tree? Github API?)~~
 
 
-### make sure you know what you are doing... LoL (you account could be suspended...)
+### make sure you know what you are doing... LoL (your account could be suspended...)
