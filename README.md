@@ -1,7 +1,3 @@
-# GitHubFollowingHack
-
-
-
 # Note: Github fixed it so no longer works but someting interesting I found 🤣
 GitHub fixed it by using Base64 encoded timestamp (LOL🤣) page index instead of page number so there is hard to quickly navigate to different pages as predict the excat timestamp is hard.
 
