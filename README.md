@@ -1,4 +1,4 @@
-# Note: Github fixed it so no longer works but someting interesting I found 🤣
+# Note: Github fixed it so no longer works but someting is kind interesting 🤣
 GitHub fixed it by using Base64 encoded timestamp (LOL🤣) page index instead of page number so there is hard to quickly navigate to different pages as predict the excat timestamp is hard.
 
 The page index looks like Base64 to me so I decoded some:
